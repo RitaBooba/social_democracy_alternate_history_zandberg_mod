@@ -1,0 +1,23 @@
+title: Adrian Zandberg
+is-pinned-card: true 
+tags: advisor, reformist
+card-image: img/portraits/ZandbergAdrian.jpg
+new-page: true
+view-if: zandberg_advisor = 1
+
+= Adrian Zandberg
+
+
+Absolutny kurwa chad
+
+- @emergency_fundraising
+- @root: Return to main
+
+@emergency_fundraising
+title: Razem jestesmy KOMUNIZM!!!
+subtitle: Kliknij tutaj aby zobaczyc jak ten czolg czlowieka rozjezdza faszyzm rigczem i rozumem i godnoscia czlowieka
+choose-if: advisor_action_timer = 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6; resources += dues
+
+We have gained +[+ dues +] resources.
