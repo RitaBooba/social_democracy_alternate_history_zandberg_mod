@@ -1,0 +1,13 @@
+title: 2024
+subtitle: Big 2024
+on-arrival: {!
+// see post_event.scene.dry for changes.
+Q.economic_growth -= 4;
+
+!}
+tags: event
+view-if: year = 2024 and month = 1
+priority: 2
+max-visits: 1
+
+Wiwat PO, wiwat 3D, wiwat Lewica
